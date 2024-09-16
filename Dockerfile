@@ -42,8 +42,8 @@ COPY --from=builder /app/main /usr/local/bin/main
 
 # 暴露端口
 EXPOSE 9091
-EXPOSE 6379
-EXPOSE 2379
+EXPOSE 6479
+EXPOSE 2479
 
 # 启动脚本
 CMD ["/usr/local/bin/start.sh"]
